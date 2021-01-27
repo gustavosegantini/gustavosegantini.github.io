@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(31, 43, 79);
+}
+.titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 38px;
+}
+.galeria{
+    margin: 10px 50px;
+}
+.galeria img{
+    transition: 0.8s;
+    padding: 15px;
+    width: 200px;
+}
+.galeria img:hover{
+    filter: grayscale(88%);
+    transform: scale(1.1);
+}
